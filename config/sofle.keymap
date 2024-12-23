@@ -31,6 +31,8 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
         };
+
+        mt { tapping-term-ms = <600>; };
     };
 
     scroll_encoder: scroll_encoder {
@@ -40,8 +42,6 @@
 
         tap-ms = <30>;
     };
-
-    mt { tapping-term-ms = <600>; };
 
     keymap {
         compatible = "zmk,keymap";
