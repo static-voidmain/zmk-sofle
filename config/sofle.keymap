@@ -38,6 +38,10 @@
         tap-ms = <30>;
     };
 
+    &mk {
+        tapping-term-ms = <600>;
+    }
+
     keymap {
         compatible = "zmk,keymap";
 
