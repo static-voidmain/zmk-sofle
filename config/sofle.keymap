@@ -38,8 +38,8 @@
         tap-ms = <30>;
     };
 
-    &mt {
-        tapping-term-ms = <600>;
+    mt {
+        tapping-term-ms = <400>;
     };
 
     keymap {
