@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - LANG HANGEUL
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
